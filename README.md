@@ -4,7 +4,7 @@
 Built with ❤️ using **React, TypeScript, and Vite**.
 
 <div align="center">
-  <img src="https://tenor.com/bMJ9O.gif" width="200">
+  <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTF3b2Z1bDBzaDI1b3ZrN3liOTI2ZTdteDIwZW9jZndieWlsd2dldCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Wrlwh4k4Uz1o3imeZg/giphy.gif" width="200">
 </div>
 ---
 
