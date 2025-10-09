@@ -1,43 +1,126 @@
+# 🚀 Event Log Weaver
+
+> **A modern web app that captures user events, login data, and weekly task activity — fully containerized with Docker.**  
+Built with ❤️ using **React, TypeScript, and Vite**.
+
+![Event Log Weaver Banner](./assets/demo.gif)  
+https://tenor.com/bMJ9O.gif
+
+---
+
+## 🌟 Features
+
+✅ **Login Simulation**  
+- Simulates user login  
+- Captures:
+  - ⏰ **Login Timestamp**
+  - 💻 **Device Details**
+  - 📍 **Geolocation**
+
+✅ **Weekly Task Tracker**  
+- Add, view, and edit weekly task entries  
+- Stores modification timestamps  
+- Clean, interactive UI with real-time updates  
+
+✅ **Event Data Handling**  
+- Stores all user events in a structured data format  
+- Edits are tracked and timestamped for accountability  
+
+✅ **Containerized with Docker**  
+- Easily deployable anywhere  
+- Lightweight and consistent runtime environment  
+
+---
+
+## 🧱 Tech Stack
+
+| Category | Technologies |
+|-----------|---------------|
+| Frontend | React, TypeScript, Vite |
+| Styling | Tailwind CSS |
+| State Management | useState, useEffect hooks |
+| Containerization | Docker |
+| Deployment | Render / Railway / AWS (your choice) |
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone this repo:
+
+git clone https://github.com/<your-username>/event-log-weaver.git
+cd event-log-weaver
+Install dependencies:
 
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+Copy code
 npm run dev
-```
+🐳 Docker Setup
+Build and run the app inside Docker:
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Then open:
+👉 http://localhost:8080
 
 
+🧠 Architecture Overview
+vbnet
+Copy code
+┌─────────────────────────────┐
+│        User Interface        │
+│ (React + TypeScript + Vite)  │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│     Event Logging Logic     │
+│ (Timestamps, Device Info,   │
+│  Geolocation, Edits)        │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│  Data Structure / State Mgmt │
+│ (In-memory / LocalStorage)   │
+└──────────────┬───────────────┘
+               │
+               ▼
+┌─────────────────────────────┐
+│     Docker Container         │
+│  (Portable & Deployable)     │
+└─────────────────────────────┘
+🧩 Project Highlights
+💡 Clean UI built with Tailwind
+
+⚡ Instant state updates with React hooks
+
+🌐 Real-time location capture using browser APIs
+
+🐳 Dockerized for consistent deployment
+
+🧰 Easily extendable for backend integration
+
+📦 Deployment (Render Example)
+Push your repo to GitHub
+
+Go to Render.com → New Web Service
+
+Connect your repo
+
+Render auto-detects your Dockerfile 🚀
+
+App goes live at:
+https://event-log-weaver.onrender.com
+
+🤝 Contributing
+Pull requests are welcome!
+For major changes, please open an issue first to discuss what you’d like to change.
+
+🧑‍💻 Author
+Roshal Dsouza
+💼 Portfolio
+🌐 LinkedIn
+🐙 GitHub
+
+⭐ Support
+If you like this project, consider giving it a ⭐ on GitHub!
+Your support helps improve and grow this open-source project 🙌
