@@ -3,9 +3,9 @@
 > **A modern web app that captures user events, login data, and weekly task activity — fully containerized with Docker.**  
 Built with ❤️ using **React, TypeScript, and Vite**.
 
-![Event Log Weaver Banner](./assets/demo.gif)  
-https://tenor.com/bMJ9O.gif
-
+<div align="center">
+  <img src="https://tenor.com/bMJ9O.gif" width="200">
+</div>
 ---
 
 ## 🌟 Features
