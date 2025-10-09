@@ -1,4 +1,4 @@
-# 🚀 Event Log Weaver
+# 🚀 Task Flow
 
 > **A modern web app that captures user events, login data, and weekly task activity — fully containerized with Docker.**  
 Built with ❤️ using **React, TypeScript, and Vite**.
@@ -117,9 +117,7 @@ For major changes, please open an issue first to discuss what you’d like to ch
 
 🧑‍💻 Author
 Roshal Dsouza
-💼 Portfolio
-🌐 LinkedIn
-🐙 GitHub
+
 
 ⭐ Support
 If you like this project, consider giving it a ⭐ on GitHub!
