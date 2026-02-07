@@ -105,7 +105,6 @@ Push your repo to GitHub
 Go to Render.com → New Web Service
 
 Connect your repo
-
 Render auto-detects your Dockerfile 🚀
 
 App goes live at:
